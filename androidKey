@@ -3,4 +3,10 @@ alias = BiswasBlogAlias
 keyPass = 2dS#4SS
 aliaspass = 2dS#4SS
 
+
+#Go to this path after install java and set environment veriable
+#C:\Program Files\Java\jdk-11\bin
+
+Then open cmd in admin penalize and tipe below commend:
+
 keytool -genkey -v -keystore BiswasBlog.keystore -alias BiswasBlogAlias -keyalg RSA -keysize 2048 -validity 10000
