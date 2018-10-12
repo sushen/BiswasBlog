@@ -1,0 +1,6 @@
+name = BiswasBlog
+alias = BiswasBlogAlias
+keyPass = 2dS#4SS
+aliaspass = 2dS#4SS
+
+keytool -genkey -v -keystore BiswasBlog.keystore -alias BiswasBlogAlias -keyalg RSA -keysize 2048 -validity 10000
